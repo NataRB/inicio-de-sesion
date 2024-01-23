@@ -37,7 +37,7 @@ function updateStatusMessage(message, type) {
     if (type === 'success') {
         statusMessage.style.color = '#4caf50'; 
     } else if (type === 'error') {
-        statusMessage.style.color = '#f44336'; 
+        statusMessage.style.color = '#ff'; 
     }
 
 }
