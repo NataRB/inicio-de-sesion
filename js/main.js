@@ -42,4 +42,11 @@ function updateStatusMessage(message, type) {
 
 }
 
+//Función para manejar la tecla Enter
+function checkEnter(event) {
+    if (event.key === 'Enter') {
+        login();
+    }
+}
+
 

@@ -15,7 +15,7 @@
             <input class="input" type="text" id="username" required>
 
             <label for="password">Contraseña:</label>
-            <input class="input" type="password" id="password" required>
+            <input class="input" type="password" id="password" required onkeydown="checkEnter(event)">
 
             <button type="button" onclick="login()">Iniciar Sesión</button>
         </form>
